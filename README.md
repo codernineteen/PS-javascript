@@ -1,5 +1,5 @@
 # PS-typescript
-Algorithm problems solving using javascript
+Algorithm problems solving using typescript
 
 # Problem source
-- Leet code
+[LeetCode](https://leetcode.com/problemset/all/)
