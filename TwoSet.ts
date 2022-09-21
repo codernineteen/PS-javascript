@@ -24,7 +24,7 @@ function getTotalX(a: number[], b: number[]): number {
   let isDivided = true;
   while (consideredNumber <= b[0]) {
     isDivided = true;
-    for (let num of b) {
+    for (const num of b) {
       if (num % consideredNumber !== 0) {
         isDivided = false;
         break;

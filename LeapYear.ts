@@ -37,7 +37,7 @@ function dayOfProgrammer(year: number): string {
   let targetDay = 256;
   let targetMonth = 0;
   let restDate = 0;
-  for (let month in cal) {
+  for (const month in cal) {
     if (targetDay - cal[month] < 0) {
       targetMonth = parseInt(month);
       restDate = targetDay;
@@ -50,3 +50,5 @@ function dayOfProgrammer(year: number): string {
     targetMonth < 10 ? `0${targetMonth}` : targetMonth
   }.${year}`;
 }
+
+console.log(dayOfProgrammer(1918));
